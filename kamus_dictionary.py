@@ -50,6 +50,18 @@ item = data_dict.items()
 print(item)
 
 
-#xopy dictionary
+#copy dictionary
 data_dict2 = data_dict.copy()
 print(data_dict2)
+
+#pop dictionary
+data_pop = data_dict2.pop('sirius')
+print(data_pop)
+print(data_dict2)
+
+#popitem dictionary
+data_popitem = data_dict2.popitem()
+print(data_popitem)
+print(data_dict2)
+
+
